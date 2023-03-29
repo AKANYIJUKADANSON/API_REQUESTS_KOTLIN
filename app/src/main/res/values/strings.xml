@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">APIZ</string>
+    <string name="user_id">User ID</string>
+    <string name="post_title">Post Title</string>
+    <string name="post_body">Post Body</string>
+    <string name="hello_world">Hello world</string>
+</resources>
