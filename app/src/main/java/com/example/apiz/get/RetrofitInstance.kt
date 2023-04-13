@@ -1,6 +1,7 @@
 package com.example.apiz.get
 
 import com.example.apiz.Constants
+import com.squareup.moshi.Moshi
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 
@@ -11,6 +12,5 @@ object RetrofitInstance {
             .addConverterFactory(GsonConverterFactory.create())
             .build()
             .create(PostApiInterface::class.java)
-
     }
 }
